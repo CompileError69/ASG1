@@ -1,0 +1,146 @@
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* ----- Header background and logo ----- */
+#header {
+	background-color: black;
+}
+
+#logo {
+	text-align: center;
+}
+
+#logo img {
+	height: 5em;
+	width: 5em;
+	margin-top: 1.25em;
+}
+
+#logo p {
+	color: white;
+	font-size: 1.5em;
+	font-family: fantasy;
+	margin-top: 5px;
+}
+/* -------------------------------------- */
+
+/* ----- Navigation bar ----- */
+#navbar {
+	text-align: center;
+}
+
+#navbar ul {
+	display: inline-flex;
+	list-style: none;
+	color: white;
+	font-size: 1.25em;
+}
+
+#navbar ul li {
+	width: 100px;
+	margin: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: white;
+	font-size: 0.75em;
+}
+
+#navbar a:hover {
+	color: orange;
+}
+
+#activePage, #activePage a {
+	background-color: orange;
+	border-radius: 5px;
+	color: black;
+}
+/* -------------------------- */
+
+/* ----- Banner ----- */
+.infoBanner {
+	border: solid;
+    background-color: darkgray;
+	position: relative;
+    height: 550px;
+}
+
+.infoBannerTitle {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	font-size: 4em;
+}
+
+.infoBannerContent {
+    position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+    font-size: 1.25em;
+	text-align: center;
+	width: 50%;
+}
+/* ------------------ */
+
+/* ----- Content section ----- */
+.contentSection {
+	background-color: black;
+}
+/* --------------------------- */
+
+/* ----- Sections ----- */
+span {
+	color: orange;
+}
+
+.section1 {
+	border: solid;
+	background-color: black;
+	height: 550px;
+}
+
+.section1 .sectionTitle {
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 4em;
+}
+
+.sectionContent {
+	display: flex;
+  	flex-direction: row;
+	margin-top: 50px;
+}
+
+.box {
+	flex: 50%;
+	text-align: center;
+	margin: 0px 50px 0px 50px;
+	padding: 90px;
+}
+
+.box p {
+	color: white;
+	font-size: 1.25em;
+}
+
+i {
+	color: orange;
+}
+/* -------------------- */
+
+/* ----- Footer ----- */
+footer {
+	background-color: black;
+	color: gray;
+	padding: 20px;
+	text-align: center;
+}
+/* ------------------ */
