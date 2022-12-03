@@ -1,0 +1,157 @@
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* ----- Header background and logo ----- */
+#header {
+	background-color: black;
+}
+
+#logo {
+	text-align: center;
+}
+
+#logo img {
+	height: 5em;
+	width: 5em;
+	margin-top: 1.25em;
+}
+
+#logo p {
+	color: white;
+	font-size: 1.5em;
+	font-family: fantasy;
+	margin-top: 5px;
+}
+/* -------------------------------------- */
+
+/* ----- Navigation bar ----- */
+#navbar {
+	text-align: center;
+}
+
+#navbar ul {
+	display: inline-flex;
+	list-style: none;
+	color: white;
+	font-size: 1.25em;
+}
+
+#navbar ul li {
+	width: 100px;
+	margin: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: white;
+	font-size: 0.75em;
+}
+
+#navbar a:hover {
+	color: orange;
+	-webkit-transition: 0.5s;
+  	transition: 0.5s;
+}
+
+#activePage, #activePage a {
+	background-color: orange;
+	border-radius: 5px;
+	color: black;
+}
+/* -------------------------- */
+
+/* ----- Sections ----- */
+span {
+	color: orange;
+}
+
+.section1 {
+    border: solid;
+	background-color: black;
+}
+
+.section1 .sectionTitle {
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 4em;
+}
+
+.sectionContent {
+    display: flex;
+  	flex-direction: row;
+	margin: 50px 50px 0px 50px;
+    color: white;
+}
+
+.asideContent {
+    flex: 30%;
+    margin-right: 40px;
+}
+
+h2 {
+    color: orange;
+}
+
+.content1, .content2 {
+    border-bottom: solid 1px white;
+}
+
+.form {
+    flex: 70%;
+    margin-left: 40px;
+}
+
+.form-group1 {
+    display: flex;
+}
+
+.form-group1 div {
+    flex: 33.33%;
+}
+
+label {
+	margin-bottom: 10px;
+}
+input, label {
+    display: block;
+}
+
+input[type=text], input[type=email] {
+    border: none;
+    height: 25px;
+}
+
+.form-group2 {
+	margin-top: 25px;
+}
+
+.form-group3 {
+	margin-top: 25px;
+}
+
+input[type=submit] {
+	border: none;
+	background-color: orange;
+	font-weight: bold;
+	margin-top: 25px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: darkorange;
+}
+
+/* ----- Footer ----- */
+footer {
+	background-color: black;
+	color: gray;
+	padding: 20px;
+	text-align: center;
+}
+/* ------------------ */
