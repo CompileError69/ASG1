@@ -1,179 +1,164 @@
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	font-size: 90%;
 }
 
-* {
-	box-sizing: border-box;
-}
-
-.account-info {
-	text-align: right;
+/* ----- Header background and logo ----- */
+#header {
 	background-color: black;
-	font-size: 15px;
-	border-top: solid orange 3px;
-	padding: 5px 10px 0px 0px;
-}
-
-.link {
-	color: white;
-	text-decoration: none;
-}
-
-header {
-	text-align: center;
-	background-color: black;
-	padding: 25px;
-	font-size: 1.6em;
 }
 
 #logo {
-	height: 75px;
-	width: 75px;
-}
-
-.logo {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	text-decoration: none;
-	color: white;
-}
-
-nav {
 	text-align: center;
-	background-color: orange;
-	padding: 15px 0px 15px 0px;
-	margin: 0px 50px 0px 50px;
-	font-size: 15px;
-	font-weight: bold;
 }
 
-#currentPage1 {
-	text-decoration: underline;
+#logo img {
+	height: 5em;
+	width: 5em;
+	margin-top: 1.25em;
 }
 
-nav a {
-	padding: 10px;
-	color: black;
-	text-decoration: none;
-}
-
-nav a:hover {
+#logo p {
 	color: white;
+	font-size: 1.5em;
+	font-family: fantasy;
+	margin-top: 5px;
+}
+/* -------------------------------------- */
+
+/* ----- Navigation bar ----- */
+#navbar {
+	text-align: center;
 }
 
-.mainHeader {
+#navbar ul {
+	display: inline-flex;
+	list-style: none;
+	color: white;
+	font-size: 1.25em;
+}
+
+#navbar ul li {
+	width: 100px;
+	margin: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: white;
+	font-size: 0.75em;
+}
+
+#navbar a:hover {
+	color: orange;
+}
+
+#activePage, #activePage a {
 	background-color: orange;
-	width: 80%;
-	height: 50%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-	margin-bottom: 0px;
+	border-radius: 5px;
 	color: black;
-	padding: 15px;
-	border-style: dotted dotted none dotted;
-	-mianHeader-padding: 10px 10px 5px 10px;
+}
+/* -------------------------- */
+
+/* ----- Banner ----- */
+.banner {
+	position: relative;
 }
 
-.mainHeader2 {
-	background-color: orange;
-	width: 80%;
-	height: 50%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0px;
-	margin-bottom: 50px;
-	color: black;
-	padding: 15px;
-	border-style: none dotted dotted dotted;
-	font-weight: lighter;
-	-mainHeader2-padding: 5px 10px 10px 10px;
+.banner img {
+	filter: brightness(30%);
+	height: 550px;
+	width: 100%;
 }
 
-.mainHeader3 {
+.bannerTitle {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, 50%);;
+	color: white;
+	font-size: 3em;
+}
+
+.bannerContent {
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, 50%);;
+	font-size: 1.5em;
+	text-align: center;
+}
+/* ------------------ */
+
+/* ----- Sections ----- */
+span {
+	color: orange;
+}
+
+.section1 {
+	border: solid;
 	background-color: black;
-	width: 80%;
-	height: 50%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	color: black;
-	padding: 5px;;
-	font-weight: bold;
-	-imgHeader-padding: 10px 10px 10px 10px;
+	height: 550px;
 }
 
-h1, h2, h3 {
+.section1 .sectionTitle {
+	color: white;
+	margin-top: 50px;
 	text-align: center;
+	font-size: 4em;
 }
 
-p {
-	text-align: center;
-}
-
-.img1 {
-	width: 80%;
-	height: 50%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-h2 {
-	font-size: 1.6em;
-	padding: 0px 0px 50px 0px;
-}
-
-#suggestionHeader {
-	padding: 0px 0px 0px 0px;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.boxHeader {
-	float: left;
-	width: 33.33%;
-	font-weight: bold;
+.sectionContent1 {
+	display: flex;
+  	flex-direction: row;
+	margin-top: 50px;
 }
 
 .box {
-  float: left;
-  width: 33.33%; 
-  border: solid orange;
+	flex: 50%;
+	text-align: center;
+	margin: 0px 50px 0px 50px;
+	background-color: gray;
+	padding: 90px;
 }
 
-#watch, #eyewear, #bottles  {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-	height: 50%;
-	width: 80%;
+.section2 {
+	border: solid;
+	background-color: black;
+	height: 550px;
 }
 
-.box2 {
-  float: right;
-  width: 25%;
-  padding: 10px 0px 10px 0px;
+.section2 .sectionTitle {
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 4em;
 }
 
+.sectionContent2 {
+	display: flex;
+  	flex-direction: row;
+	margin-top: 50px;
+}
+
+.box1, .box2, .box3, .box4 {
+	flex: 2%;
+	margin: 0px 20px 0px 20px;
+	text-align: center;
+	border: solid 1px red;
+	background-color: gray;
+	padding: 90px;
+}
+/* -------------------- */
+
+/* ----- Footer ----- */
 footer {
 	background-color: black;
-	color: white;
+	color: gray;
+	padding: 20px;
 	text-align: center;
-	padding: 25px 0px 0px 0px;
 }
-
-img {
-	height: 35px;
-	width: 35px;
-}
+/* ------------------ */
