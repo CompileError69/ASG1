@@ -2,11 +2,13 @@ body {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+    background-color: black;
 }
 
 /* ----- Header background and logo ----- */
 #header {
 	background-color: black;
+    border-bottom: solid 2px orange;
 }
 
 #logo {
@@ -64,26 +66,46 @@ body {
 }
 /* -------------------------- */
 
+/* ----- Banner ----- */
+.banner video {
+    object-fit: fill;
+    filter: brightness(50%);
+    height: 550px;
+    width: 100%;
+}
+/* ------------------ */
+
 /* ----- Products section ----- */
+span {
+    color: orange;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
-
-/* ----- Products section ----- */
-.category-header {
-    text-align: center;
-    margin: 50px 0px 0px 0px;
+#sectionTitle-1, #sectionTitle-2, #sectionTitle-3 {
+    color: white;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 4em;
 }
 
+.product-section-1, .product-section-2, .product-section-3 {
+    color: white;
+	margin-bottom: 50px;
+}
+
+/* Row 1 for Men category*/
 .box-row-1 {
     float: left;
     margin: 50px 0px 10px 0px;
     width: 25%; 
 }
-  
+
+/* Row 2 for Women category*/
 .box-row-2 {
     float: left;
     width: 25%;
@@ -91,11 +113,19 @@ body {
 }
 
 .product-img {
+    border: solid 2px orange;
+    border-radius: 10px;
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
 	height: 50%; 
 	width: 80%;
+    transition: transform 0.2s;
+}
+
+.product-img:hover {
+    -ms-transform: scale(1.1); /* IE */
+    transform: scale(1.1); 
 }
 
 .product-label {
@@ -111,6 +141,19 @@ body {
 .price {
 	text-align: center;
 }
+
+.cart-icon i {
+	color: white;
+}
+
+.ratings {
+	text-align: center;
+}
+
+.ratings i {
+    color: gold;
+}
+/* ---------------------------- */
   
 /* ----- Footer ----- */
 footer {

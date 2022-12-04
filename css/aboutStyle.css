@@ -2,11 +2,13 @@ body {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	background-color: black;
 }
 
 /* ----- Header background and logo ----- */
 #header {
 	background-color: black;
+	border-bottom: solid 2px orange;
 }
 
 #logo {
@@ -53,6 +55,8 @@ body {
 
 #navbar a:hover {
 	color: orange;
+	-webkit-transition: 0.5s;
+  	transition: 0.5s;
 }
 
 #activePage, #activePage a {
@@ -63,11 +67,22 @@ body {
 /* -------------------------- */
 
 /* ----- Banner ----- */
+span {
+    color: orange;
+}
+
 .infoBanner {
 	border: solid;
     background-color: darkgray;
 	position: relative;
     height: 550px;
+}
+
+.infoBanner img {
+	object-fit: fill;
+    filter: brightness(30%);
+    height: 550px;
+    width: 100%;
 }
 
 .infoBannerTitle {
@@ -76,6 +91,7 @@ body {
 	left: 50%;
 	transform: translate(-50%, 50%);
 	font-size: 4em;
+	color: white;
 }
 
 .infoBannerContent {
@@ -86,14 +102,9 @@ body {
     font-size: 1.25em;
 	text-align: center;
 	width: 50%;
+	color: white;
 }
 /* ------------------ */
-
-/* ----- Content section ----- */
-.contentSection {
-	background-color: black;
-}
-/* --------------------------- */
 
 /* ----- Sections ----- */
 span {
@@ -102,7 +113,6 @@ span {
 
 .section1 {
 	border: solid;
-	background-color: black;
 	height: 550px;
 }
 

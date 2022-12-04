@@ -2,11 +2,13 @@ body {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	background-color: black;
 }
 
 /* ----- Header background and logo ----- */
 #header {
 	background-color: black;
+	border-bottom: solid 2px orange;
 }
 
 #logo {
@@ -70,8 +72,7 @@ span {
 }
 
 .section1 {
-    border: solid;
-	background-color: black;
+    margin-bottom: 50px;
 }
 
 .section1 .sectionTitle {
