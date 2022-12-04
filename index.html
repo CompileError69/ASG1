@@ -6,94 +6,29 @@
     <title>Sports Hub | Home</title>
     <link type="text/css" rel="stylesheet" href="css/homeStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="homeScript.js" defer></script>
   </head>
   <body>
-    <!--
-    <div class="account-info">
-      <a href="#" class="link">LOGIN / REGISTER</a>
-    </div>
-    <header class="logo">
-      <a href="index.html"><img src="images/logo.jpg" alt="#" id="logo"></a>
-      <br/>
-      <a href="index.html" class="logo">SportsHub</a>
-    </header>
-      <nav> 
-        <a href="index.html" id="currentPage1">Home</a> 
-        <a href="gallery.html" id="currentPage2">Gallery</a> 
-        <a href="contactus.html" id="currentPage3">Contact Us</a>
-      </nav>
-      
-    <article class="mainArticle">
-      <h1 class="mainHeader">CHRISTMAS SALES IS HERE !</h1>
-      <h1 class="mainHeader2">Enjoy up to 30% OFF for all products. Hurry, LIMITED TIME ONLY !</h1>
-      <h3 class="mainHeader3" style="color:white">ALL NEW RELEASE</h3>
-      <img src="images/blue_bike.jpg" alt="#" class="img1">
-      <p>TwinSix Blu</p>
-      <h2>Your trusty TwinSix Blu hybrid bike now comes in beautiful skyblue!</h2>
-    </article>
-    
-    <h2 id="suggestionHeader">Top Favourites</h2>
-    <div class="clearfix">
-      <div class="boxHeader">WATCHES</div>
-      <div class="boxHeader">EYEWEAR</div>
-      <div class="boxHeader">HYDRATION</div>
-    </div>
-    <div class="clearfix">
-      <div class="box"><img src="images/sports_watch.jpg" alt="#" id="watch">
-      <p><a href="#">EXPLORE NOW</a></p></div>
-      
-      <div class="box"><img src="images/eyewear.jpg" alt="#" id="eyewear">
-      <p><a href="#">EXPLORE NOW</a></p></div>
-      
-      <div class="box"><img src="images/bottles.jfif" alt="#" id="bottles">
-      <p><a href="#">EXPLORE NOW</a></p></div>
-    </div>
-    
-    <footer>Copyright &copy; 2022. All Rights Reserved.</footer>
-    
-    <div class="clearfix">
-      <footer>
-        <div class="box2">
-          <a href="#" target="_blank">
-            <img src="images/socialmedia_facebook.png" id="FB-img" alt="facebook">
-          </a>
-        </div>
-        <div class="box2">
-          <a href="#" target="_blank">
-            <img src="images/socialmedia_instagram.png" id="Insta-img" alt="instagram">
-          </a>
-        </div>
-        <div class="box2">
-          <a href = "#" target="_blank">
-            <img src="images/socialmedia_twitter.png" id="Tweet-img" alt = "twitter">
-          </a>
-        </div>
-        <div class="box2">
-          <a href="#" target="_blank">
-            <img src="images/socialmedia_youtube.png" id="YT-img" alt="youtube">
-          </a>
-        </div>
-      </footer>
-    </div> -->
-
     <header id="header">
       <div id="logo">
-        <a href="index.html"><img src="images/logo.jpg" alt="#"></a>
+        <a href="index.html"><img src="img/logo.jpg" alt="#"></a>
         <p>Sports Hub</p>
       </div>
       
-      <nav id="navbar">
-        <ul>
-          <li id="activePage"><a href="index.html">HOME</a> </li> |
-          <li><a href="gallery.html">SHOP</a></li> |
-          <li><a href="about.html">ABOUT</a></li> |
-          <li><a href="contactus.html">CONTACT US</a></li>
-        </ul> 
+      <nav class="navbar">
+        <div class="navbar-link">
+          <ul>
+            <li id="activePage"><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul> 
+        </div>
       </nav>
     </header>
 
     <div class="banner">
-      <img src="./images/bannerImg.jpg" alt="#">
+      <img src="img/bannerImg.jpg" alt="#">
       <div class="bannerTitle">
         <p>BE THE BEST YOU CAN BE</p>
       </div>
@@ -113,13 +48,16 @@
       </div>
       
       <div class="sectionContent1">
-        <div class="box">
-          <p>
-            MEN'S
-          </p>
-        </div>
-        <div class="box">
-          <p>WOMEN'S</p>
+        <div class="clearfix">
+          <div class="category-box">
+            <a href="shop.html#sectionTitle-1"><img src="img/men_category_img.jpg" alt="#" class="category-img"></a>
+            <p>MEN</p>
+          </div>
+          
+          <div class="category-box">
+            <a href="shop.html#sectionTitle-1"><img src="img/women_category_img.jpg" alt="#" class="category-img"></a>
+            <p>WOMEN</p>
+          </div>
         </div>
       </div>
     </section>
@@ -130,21 +68,27 @@
       </div>
       
       <div class="sectionContent2">
-        <div class="box1">
-          <p>
-            MEN'S
-          </p>
-        </div>
-        <div class="box2">
-          <p>WOMEN'S</p>
-        </div>
-        <div class="box3">
-          <p>FOOTWEAR</p>
-        </div>
-        <div class="box4">
-          <p>ACCESSORIES</p>
+        <div class="clearfix">
+          <div class="suggested-box">
+            <a href="shop.html#sectionTitle-1"><img src="img/running_tee.jpg" alt="#" class="suggested-img"></a>
+            <p>T-SHIRT</p>
+          </div>
+          
+          <div class="suggested-box">
+            <a href="shop.html#sectionTitle-2"><img src="img/pants_brown.jpg" alt="#" class="suggested-img"></a>
+            <p>PANTS</p>
+          </div>
+
+          <div class="suggested-box">
+            <a href="shop.html#sectionTitle-3"><img src="img/women_red_shoes.jpg" alt="#" class="suggested-img"></a>
+            <p>SHOES</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <footer>
+      Copyright 2022 &copy; Sports Hub Singapore.
+    </footer>
   </body>
 </html>
