@@ -194,12 +194,26 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+
+.social-media-icons {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.social-media-icons i {
+	font-size: 1.2em;
+	padding: 0px 20px;
+}
 /* ------------------ */
 
 @media screen and (max-width: 600px) {
 	.navbar ul {
-		border: solid 1px red;
 		flex-direction: column;
+		padding: 0px;
+	}
+
+	.navbar ul li {
+		margin: 10px;
 	}
 	
 	.bannerTitle {
@@ -210,10 +224,14 @@ footer {
 		font-size: 2em;
 	}
 
+	.banner img {
+		height: 400px;
+	}
+
 	.bannerContent {
 		color: white;
 		position: absolute;
-		top: 30%;
+		top: 20%;
 		left: 50%;
 		font-size: 1.5em;
 		text-align: center;
@@ -224,16 +242,11 @@ footer {
 		padding-bottom: 50px;
 	}
 
-	.sectionContent2 {
-		flex-direction: column;
+	.category-img {
+		width: 75%;
 	}
 
-	.box1, .box2, .box3, .box4 {
-		flex: 2%;
-		margin: 0px 20px 0px 20px;
-		text-align: center;
-		border: solid 1px red;
-		background-color: gray;
-		padding: 90px;
+	.sectionContent2 {
+		flex-direction: column;
 	}
 }

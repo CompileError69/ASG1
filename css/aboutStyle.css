@@ -30,30 +30,30 @@ body {
 /* -------------------------------------- */
 
 /* ----- Navigation bar ----- */
-#navbar {
+.navbar {
 	text-align: center;
 }
 
-#navbar ul {
+.navbar ul {
 	display: inline-flex;
 	list-style: none;
 	color: white;
 	font-size: 1.25em;
 }
 
-#navbar ul li {
+.navbar ul li {
 	width: 100px;
 	margin: 0px 10px 0px 10px;
 	padding: 0px 10px 0px 10px;
 }
 
-#navbar a {
+.navbar a {
 	text-decoration: none;
 	color: white;
 	font-size: 0.75em;
 }
 
-#navbar a:hover {
+.navbar a:hover {
 	color: orange;
 	-webkit-transition: 0.5s;
   	transition: 0.5s;
@@ -116,7 +116,19 @@ span {
 	height: 550px;
 }
 
+.section2 {
+	border: solid;
+	background-color: rgb(20, 20, 20);
+}
+
 .section1 .sectionTitle {
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 4em;
+}
+
+.section2 .sectionTitle {
 	color: white;
 	margin-top: 50px;
 	text-align: center;
@@ -141,7 +153,7 @@ span {
 	font-size: 1.25em;
 }
 
-i {
+.box i {
 	color: orange;
 }
 /* -------------------- */
@@ -153,4 +165,25 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+
+.social-media-icons {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.social-media-icons i {
+	font-size: 1.2em;
+	padding: 0px 20px;
+}
 /* ------------------ */
+
+@media screen and (max-width: 600px) {
+	.navbar ul {
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	.navbar ul li {
+		margin: 10px;
+	}
+}

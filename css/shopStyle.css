@@ -162,4 +162,25 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+
+.social-media-icons {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.social-media-icons i {
+	font-size: 1.2em;
+	padding: 0px 20px;
+}
 /* ------------------ */
+
+@media screen and (max-width: 600px) {
+	.navbar ul {
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	.navbar ul li {
+		margin: 10px;
+	}
+}
