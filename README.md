@@ -24,16 +24,18 @@ Plans for additional features to be added in the future:
 ## Technologies Used
 Languages used: 
 - HTML, CSS and JavaScript
+
 Software used: 
 - Adobe XD, Visual Studio Code
+
 Others used: 
 - [Font Awesome](https://fontawesome.com/) - Used for implementing icons into HTML efficiently.
 
 ## Testing
 1. Home page:
-    i. Go to the home page
-    ii. Under the "POPULAR PRODUCTS", click on either the of the category (T-SHIRT, PANTS or SHOES)
-    iii. If SHOES were selected, for example, the user would be land on the SHOES section of the shop page.
+- i. Go to the home page
+- ii. Under the "POPULAR PRODUCTS", click on either the of the category (T-SHIRT, PANTS or SHOES)
+-iii. If SHOES were selected, for example, the user would be land on the SHOES section of the shop page.
 
 ## Credits
 - Media - Any photos or videos used in this site were obtained from [Pexels](https://www.pexels.com/)
