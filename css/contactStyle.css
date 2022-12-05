@@ -94,10 +94,6 @@ span {
     margin-right: 40px;
 }
 
-h2 {
-    color: orange;
-}
-
 .content1, .content2 {
     border-bottom: solid 1px white;
 }
@@ -147,6 +143,7 @@ input[type=submit] {
 input[type=submit]:hover {
 	background-color: darkorange;
 }
+/* -------------------- */
 
 /* ----- Footer ----- */
 footer {
@@ -158,15 +155,20 @@ footer {
 
 .social-media-icons {
 	display: block;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 
 .social-media-icons i {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	padding: 0px 20px;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
+	color: gray;
 }
 /* ------------------ */
 
+/* ----- Responsiveness ----- */
 @media screen and (max-width: 600px) {
 	.navbar ul {
 		flex-direction: column;
@@ -176,4 +178,60 @@ footer {
 	.navbar ul li {
 		margin: 10px;
 	}
+
+	.sectionContent {
+		flex-direction: column;
+	}
+
+	.section1 .sectionTitle {
+		font-size: 3em;
+	}
+
+	.asideContent {
+		margin-bottom: 50px;
+		width: 100%;
+	}
+
+	.asideContent h2, .asideContent p {
+		text-align: center;
+	}
+
+	.form {
+		margin: 0;
+		width: 100%;
+	}
+
+	.form h2 {
+		text-align: center;
+	}
+
+	.form-group1 {
+		flex-direction: column;
+	}
+
+	.form-group1 div {
+		margin-bottom: 20px;
+	}
+
+	.form-group1 label, .form-group2 label, .form-group3 label {
+		text-align: center;
+	}
+
+	.form-group1 input, .form-group2 select, .form input {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.form-group3 textarea {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		width: 85%;
+	}
+
+	.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
+		color: gray;
+	}
 }
+/* -------------------------- */

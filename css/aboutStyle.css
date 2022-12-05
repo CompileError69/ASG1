@@ -168,12 +168,16 @@ footer {
 
 .social-media-icons {
 	display: block;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 
 .social-media-icons i {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	padding: 0px 20px;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
+	color: gray;
 }
 /* ------------------ */
 
@@ -185,5 +189,13 @@ footer {
 
 	.navbar ul li {
 		margin: 10px;
+	}
+
+	.social-media-icons i {
+		font-size: 1.2em;
+	}
+
+	.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
+		color: gray;
 	}
 }
