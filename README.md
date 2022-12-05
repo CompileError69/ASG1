@@ -12,15 +12,11 @@ A list of User Stories:
 
 - As a person who is of old age, I am not as tech-savvy as my younger counterparts. But I decided to take this opportunity to explore and learn how I can purchase items online, since I am currently looking for some sports wear. I decided to buy from this website to get what I want, and at the same time, familiarise myself on how I can navigate myself and purchase products online.
 
-## Wireframes and Diagrams
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
-
 ## Features
-- Feature 1 - Users can sign up for an account, if they want to, in order to make purchases.
-- Feature 2 - Users can make orders online for their products to be delivered to their homes.
-- Feature 3 - The website utilized user friendly designs.
-- Feature 4 - The website provides customer support by having users contact the company.
-- Feature 5 - Information to contact the company is provided.
+- Feature 1 - The website utilized user friendly designs.
+- Feature 2 - The website provides customer support by having users contact the company.
+- Feature 3 - Information to contact the company is provided.
+- Feature 4 - Users will land on a particular section of another page, upon selecting an option in a page.
 
 Plans for additional features to be added in the future:
 - Dropdown list to store categories.
@@ -28,5 +24,14 @@ Plans for additional features to be added in the future:
 ## Technologies Used
 Languages used: HTML, CSS and JavaScript
 Software used: Adobe XD, Visual Studio Code
+Others used: [Font Awesome](https://fontawesome.com/) - Used for implementing icons into HTML efficiently.
 
-To be continued...
+## Testing
+1. Home page:
+- i. Go to the home page
+- ii. Under the "POPULAR PRODUCTS", click on either the of the category (T-SHIRT, PANTS or SHOES)
+- iii. If SHOES were selected, for example, the user would be land on the SHOES section of the shop page.
+
+## Credits
+- Media - Any photos or videos used in this site were obtained from [Pexels](https://www.pexels.com/)
+- Acknowledgements - I received inspiration for this project from [Pexels](https://www.decathlon.sg/)
